@@ -1,0 +1,93 @@
+div {
+    background-color: #ff0000;
+    height: 300px;
+}
+
+.st {
+    font-size: 40px;
+    font-weight: normal;
+    font-family: cursive;
+    color: #ffffff;
+    position: relative;
+    animation: mymove infinite;
+    animation-duration: 4s;
+}
+
+@keyframes mymove {
+    from {top: 0px;}
+    to {top: 250px;}
+  }
+
+table {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fstp, .secp {
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 20px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.firstphoto{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.firstlink{
+    background-color: rgb(197, 33, 197);
+    width: 650px;
+    height: 260px;
+}
+
+.secondphoto{
+    width: 450px;
+    height: 280px;
+    background-size: cover;
+    background-position: center;
+}
+
+.h1 {
+    font-family: times, "Times New Roman", serif;
+    color: #ffffff;
+}
+
+.link {
+    font-family: 'Times New Roman', Times, serif;
+    text-indent: 50px;
+    font-size: larger;
+    font-weight: 500;
+}
+
+.secondlink{
+    background-color: rgb(198, 253, 15);
+    width: 650px;
+    height: 260px;
+}
+
+.thirdphoto {
+    width: 450px;
+    height: 280px;
+    padding-left: 200px;
+    padding-top: 5px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius:15px;
+}
+
+.thirdlink {
+    background-color: rgb(43, 13, 236);
+    width: 650px;
+    height: 260px;
+}
+
+.fourthphoto {
+    width: 450px;
+    height: 280px;
+    background-size: cover;
+    background-position: center;
+}
+

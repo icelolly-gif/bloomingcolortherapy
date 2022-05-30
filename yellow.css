@@ -1,0 +1,47 @@
+body{
+    background-color: yellow;
+}
+
+div {
+    background-color: #ffffff;
+    height: 300px;
+}
+
+.st {
+    font-size: 40px;
+    font-weight: normal;
+    font-family: cursive;
+    color: yellow;
+    position: relative;
+    animation: mymove infinite;
+    animation-duration: 4s;
+}
+
+@keyframes mymove {
+    from {top: 0px;}
+    to {top: 250px;}
+  }
+
+p {
+    padding-top: 50px;
+    padding-left: 80px;
+    padding-right: 80px;
+    font-size: 20px;
+    text-align: justify;
+    text-indent: 30px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+table {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+    padding-top: 50px;
+    background-size: cover;
+    background-position: center;
+}
